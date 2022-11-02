@@ -1,0 +1,29 @@
+php artisan make:model order -m
+php artisan make:model order_details -m
+php artisan make:model payment -m
+php artisan make:model shipping -m
+php artisan make:model customer -m
+php artisan make:model product -m
+php artisan make:model brand_product -m
+php artisan make:model category -m
+php artisan make:migration password_reset
+php artisan make:model admin -m
+php artisan make:migration failed_job_table 
+
+
+
+php artisan migrate
+
+
+
+
+php artisan make:controller AdminController
+php artisan make:controller BrandProduct
+php artisan make:controller CartController
+php artisan make:controller CategoryProduct
+php artisan make:controller CheckoutController
+php artisan make:controller HomeController
+php artisan make:controller ProductController
+
+php artisan make:model Brand
+php artisan make:model Product
