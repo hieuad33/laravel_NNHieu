@@ -137,3 +137,13 @@ Route::get('/found-order-weed','AdminController@show_order_week');
 // multi-email
 Route::get('/multi-email','AdminController@show_multi_email');
 Route::get('/send-mail','AdminController@send_mail');
+
+
+
+Route::get('/danh-muc-san-pham/{slug_category_product}','CategoryProduct@show_category_home');
+Route::get('/thuong-hieu-san-pham/{brand_slug}','BrandProduct@show_brand_home');
+
+
+
+
+Route::get('/chi-tiet-san-pham/{product_id}','ProductController@details_product');
