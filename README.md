@@ -21,7 +21,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/alijumaan/laravel-ecommerce.git
+   git clone https://github.com/hieuad33/laravel_NNHieu.git
    ```
 2. Install Composer packages
    ```sh
